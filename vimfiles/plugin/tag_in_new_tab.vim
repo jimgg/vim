@@ -12,5 +12,5 @@ function! TagInNewTab()
     execute 'tag ' . word
 endfunction
 
-nmap    <leader><C-]>    :call TagInNewTab()<CR>
+nmap    <leader><C-t>    :call TagInNewTab()<CR>
 
